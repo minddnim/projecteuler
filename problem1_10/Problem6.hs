@@ -1,4 +1,2 @@
-import Data.Numbers.Primes
-
 main :: IO()
-main = print $ primes !! (10001-1)
+main = print $ (sum [1..100])^2 - sum [x^2|x<-[1..100]]
